@@ -1,25 +1,29 @@
 import React from "react";
 import "./SideNavigation.css";
+import Home from "../../image/SideNavigationImage/Home.webp"
+import Character from "../../image/SideNavigationImage/Character.webp"
+import Video from "../../image/SideNavigationImage/Video.webp"
+import Feeback from "../../image/SideNavigationImage/Feedback.webp"
 
 const SideNavigation = () => {
-  const IMPORT_ALL = (req) => {
-    let images = {};
-    req.keys().map((item) => {
-      images[item.replace("./", "")] = req(item);
-    });
-    return images;
-  };
+  // const IMPORT_ALL = (req) => {
+  //   let images = {};
+  //   req.keys().map((item) => {
+  //     images[item.replace("./", "")] = req(item);
+  //   });
+  //   return images;
+  // };
 
-  const IMAGES = IMPORT_ALL(
-    require.context("../../image/SideNavigationImage", false, /\.(webp)$/)
-  );
+  // const IMAGES = IMPORT_ALL(
+  //   require.context("../../image/SideNavigationImage", false, /\.(webp)$/)
+  // );
 
-  console.log(IMAGES)
+
   return (
     <div class="Block-1">
       <nav class="Main-Container One">
         <div class="container">
-          <img src="" alt="Avatar" class="image" />
+          <img src={Home} alt="Avatar" class="image" />
           <div class="overlay">
             <a href="../Main/Main.html">
               <div class="text">
@@ -29,10 +33,9 @@ const SideNavigation = () => {
           </div>
           <h3>Home</h3>
         </div>
-
         <div class="container">
           <img
-            src="../../Image/Container2Images/Feedback.webp"
+            src={Character}
             alt="Avatar"
             class="image"
           />
@@ -47,7 +50,7 @@ const SideNavigation = () => {
         </div>
         <div class="container">
           <img
-            src="../../Image/Container2Images/Volume_03.webp"
+            src={Video}
             alt="Avatar"
             class="image"
           />
@@ -60,10 +63,9 @@ const SideNavigation = () => {
           </div>
           <h3>Video</h3>
         </div>
-
         <div class="container">
           <img
-            src="../../Image/Container2Images/Character.webp"
+            src={Feeback}
             alt="Avatar"
             class="image"
           />
