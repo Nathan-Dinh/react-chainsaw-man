@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fjalla+One&display=swap");
+
+:root {
+  --vermilion-dark: rgba(237, 47, 54, 0.798);
+  --yellow-pantone: hsla(53, 100%, 50%, 1);
+  --catawba: hsla(352, 30%, 29%, 1);
+  --malachite: hsla(122, 66%, 55%, 1);
+  --alabaster: hsla(43, 23%, 88%, 1);
+  --alabaster2: rgba(231, 227, 217, 0.825);
+  --vermilion: hsla(358, 100%, 45%, 1);
+  --goldenrod: hsla(44, 100%, 44%, 1);
+  --carnelian: hsla(359, 81%, 40%, 1);
+  --flame: hsla(15, 83%, 53%, 1);
+}
+
+
+.Main-Container.Two img{
+    border: 3px solid black;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.Main-Top-Header{
+    margin-bottom: 2em;
+}
+
+.Main-Text{
+    display: grid;
+    grid-template-columns: repeat(5,auto);
+    gap: 3em;
+}
+
+.Character-Card{
+    max-width: 200px;
+    text-align: center;
+}
+
+.zoom {
+    transition: transform .2s; /* Animation */
+    margin: 0 auto;
+  }
+  
+  .Main-Container.Three h2{
+    color: var( --yellow-pantone);
+    text-shadow: black 1px 1px;
+    padding: 10px 0;
+  }
+  .Main-Container.Three h1{
+    color:  var(--catawba);
+    padding: 10px 0;
+  }
+
+  .zoom:hover{
+    opacity: 1.5;
+    padding: 1em;
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
+  @media (min-width:1800px) {
+    .Main-Text{
+    display: grid;
+    grid-template-columns: repeat(8,auto);
+    gap: 3em;
+    }
+    
+  }
+
+  @media (max-width:1000px) {
+    .Main-Text{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    gap: 3em;
+    }
+    
+  }

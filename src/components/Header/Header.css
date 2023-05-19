@@ -1,0 +1,25 @@
+.Top-Header {
+  background-color: var(--yellow-pantone);
+  background-image: url("https://4kwallpapers.com/images/walls/thumbs_3t/8958.jpg");
+  background-size: cover;
+  background-position: 1px;
+  opacity: 1;
+  border: 5px solid var(--goldenrodv);
+  min-height: 9.3em;
+  padding: 1.5em 2em;
+  font-family: "Bebas Neue", cursive;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Top-Header h1 {
+  color: var(--yellow-pantone);
+  text-shadow: var(--vermilion) 2px 5px;
+  font-size: 5em;
+}
+
+@media (max-width: 1080px) {
+  .Top-Header h1 {
+    font-size: 4em;
+  }
+}

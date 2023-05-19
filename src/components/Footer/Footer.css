@@ -1,0 +1,47 @@
+footer {
+  background-color: var(--goldenrod);
+  font-family: "Bebas Neue", cursive;
+  min-height: 6.2em;
+  max-height: 8em;
+  padding: 2em;
+  display: flex;
+  justify-content: space-around;
+}
+
+footer a {
+  max-width: 1em;
+  position: relative;
+  padding: 0.5em;
+  margin: 0 0.5em;
+  font-size: 1.3em;
+  background-color: var(--vermilion);
+  text-decoration: none;
+  color: var(--catawba);
+  box-shadow: 5px 5px;
+}
+
+footer a:hover {
+  background-color: var(--malachite);
+  transition: 0.2s ease;
+  transform: scale(2);
+}
+
+@media (max-width: 1080px) {
+  footer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  footer a {
+    font-size: 1.3em;
+    background-color: var(--vermilion);
+    text-decoration: none;
+    color: var(--catawba);
+    box-shadow: 5px 5px;
+  }
+
+  footer h3 {
+    padding: 1em;
+  }
+}

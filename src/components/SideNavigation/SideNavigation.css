@@ -1,0 +1,71 @@
+.Block-1 {
+  display: flex;
+}
+
+.Main-Container.One {
+  margin: 0 0 0 4em;
+  padding: 4em 0;
+  font-family: "Bebas Neue", cursive;
+}
+
+.Main-Container.One img {
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
+    rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
+    rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+  max-width: 130px;
+  max-height: 208px;
+}
+
+.Main-Container.One h3 {
+  font-size: 2em;
+  text-align: center;
+  color: var(--yellow-pantone);
+  text-shadow: black 1px 1px;
+  margin-bottom: 1em;
+}
+
+@media (max-width: 1080px) {
+  .Block-1 {
+    display: none;
+  }
+}
+
+@media (min-width: 1400px) {
+  .overlay {
+    position: absolute;
+    bottom: 40px;
+    left: -2px;
+    right: 0;
+    background-color: var(--flame);
+    border: 3px solid var(--yellow-pantone);
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+      rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    overflow: hidden;
+    width: 135px;
+    height: 215px;
+    transform: scale(0);
+    transition: 0.3s ease;
+  }
+
+  .container {
+    position: relative;
+    width: 120px;
+  }
+
+  /* When you mouse over the container, the overlay text will "zoom" in display */
+  .container:hover .overlay {
+    transform: scale(1);
+  }
+
+  /* Some text inside the overlay, which is positioned in the middle vertically and horizontally */
+  .text {
+    color: var(--yellow-pantone);
+    text-shadow: var(--vermilion) 2px 5px;
+    font-size: 2em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+}

@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fjalla+One&display=swap');
+
+:root {
+  --vermilion-dark: rgba(237, 47, 54, 0.798);
+  --yellow-pantone: hsla(53, 100%, 50%, 1);
+  --catawba: hsla(352, 30%, 29%, 1);
+  --malachite: hsla(122, 66%, 55%, 1);
+  --alabaster: hsla(43, 23%, 88%, 1);
+  --vermilion: hsla(358, 100%, 45%, 1);
+  --goldenrod: hsla(44, 100%, 44%, 1);
+  --carnelian: hsla(359, 81%, 40%, 1);
+  --flame: hsla(15, 83%, 53%, 1);
+}
+
+
+
+#wrapper {
+  height: 0;
+  overflow: hidden;
+  transition: height 0.66s ease-out;
+}
+#wrapper.loaded {
+  height: 100px;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+li{
+  list-style: none;
+}
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  background-color: var(--alabaster);
+  color: var(--catawba);
+  max-width: 200em;
+  max-height: 200em;
+  margin: 0.2em;
+}
+
+@media (max-width:1400px) {
+  nav{
+    display: flex;
+    flex-direction: row;
+  }
+}
