@@ -6,19 +6,6 @@ import Video from "../../image/SideNavigationImage/Video.webp"
 import Feeback from "../../image/SideNavigationImage/Feedback.webp"
 
 const SideNavigation = () => {
-  // const IMPORT_ALL = (req) => {
-  //   let images = {};
-  //   req.keys().map((item) => {
-  //     images[item.replace("./", "")] = req(item);
-  //   });
-  //   return images;
-  // };
-
-  // const IMAGES = IMPORT_ALL(
-  //   require.context("../../image/SideNavigationImage", false, /\.(webp)$/)
-  // );
-
-
   return (
     <div class="Block-1">
       <nav class="Main-Container One">
