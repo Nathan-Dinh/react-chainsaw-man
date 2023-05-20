@@ -1,5 +1,4 @@
 import React from "react";
-import './Feedback.css';
 import FeedbackAside from "./FeedbackAside";
 import FeedbackForm from "./FeedbackForm";
 
