@@ -5,9 +5,9 @@ import InformationAside from "./InformationAside";
 const InformationThree = () => {
   return (
     <>
-      <div class="Block-2">
-        <div class="Main-Container Two">
-          <div class="Main-Container two header">
+      <div className="Block-2">
+        <div className="Main-Container Two">
+          <div className="Main-Container two header">
             <h1>Part 2 – School arc</h1>
           </div>
           <div id="Summary">

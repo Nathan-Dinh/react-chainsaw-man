@@ -5,14 +5,14 @@ import MediaAside from "./MediaAside";
 const Media = () => {
   return (
     <>
-      <div class="Block-2">
-        <div class="Main-Container Two">
-          <h2 class="Container-Two Header">TAILER</h2>
-          <div class="Container">
-            <div class="Video-Container">
-              <div class="Video-Wrapper">
+      <div className="Block-2">
+        <div className="Main-Container Two">
+          <h2 className="Container-Two Header">TAILER</h2>
+          <div className="Container">
+            <div className="Video-Container">
+              <div className="Video-Wrapper">
                 <iframe
-                  class="responsive-iframe"
+                  className="responsive-iframe"
                   src="https://www.youtube.com/embed/l96zmDlWCBk"
                 ></iframe>
               </div>

@@ -6,7 +6,7 @@ const CharacterCards = (props) => {
     <>
       {props.characters.map((character) => {
         return (
-          <div class="Character-Card zoom">
+          <div className="Character-Card zoom">
             <header>
               <img src={character.image} alt="#" />
             </header>

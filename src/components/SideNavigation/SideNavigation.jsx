@@ -7,58 +7,58 @@ import Feeback from "../../image/SideNavigationImage/Feedback.webp"
 
 const SideNavigation = () => {
   return (
-    <div class="Block-1">
-      <nav class="Main-Container One">
-        <div class="container">
-          <img src={Home} alt="Avatar" class="image" />
-          <div class="overlay">
+    <div className="Block-1">
+      <nav className="Main-Container One">
+        <div className="container">
+          <img src={Home} alt="Avatar" className="image" />
+          <div className="overlay">
             <a href="../Main/Main.html">
-              <div class="text">
+              <div className="text">
                 <h4>CLICK!!!</h4>
               </div>
             </a>
           </div>
           <h3>Home</h3>
         </div>
-        <div class="container">
+        <div className="container">
           <img
             src={Character}
             alt="Avatar"
-            class="image"
+            className="image"
           />
-          <div class="overlay">
+          <div className="overlay">
             <a href="../Characters/Character.html">
-              <div class="text">
+              <div className="text">
                 <h4>CLICK!!!</h4>
               </div>
             </a>
           </div>
           <h3>Character</h3>
         </div>
-        <div class="container">
+        <div className="container">
           <img
             src={Video}
             alt="Avatar"
-            class="image"
+            className="image"
           />
-          <div class="overlay">
+          <div className="overlay">
             <a href="../Video/VideoPage.html">
-              <div class="text">
+              <div className="text">
                 <h4>CLICK!!!</h4>
               </div>
             </a>
           </div>
           <h3>Video</h3>
         </div>
-        <div class="container">
+        <div className="container">
           <img
             src={Feeback}
             alt="Avatar"
-            class="image"
+            className="image"
           />
-          <div class="overlay">
+          <div className="overlay">
             <a href="../Feedback/Feedback.html">
-              <div class="text">
+              <div className="text">
                 <h4>CLICK!!!</h4>
               </div>
             </a>

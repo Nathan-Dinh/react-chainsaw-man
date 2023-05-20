@@ -5,8 +5,8 @@ import FeedbackForm from "./FeedbackForm";
 const Feedback = (props) => {
   return(
     <>
-      <div class="Block-2">
-        <div class="Main-Container Two">
+      <div className="Block-2">
+        <div className="Main-Container Two">
           <h1>FeedBack</h1>
           <FeedbackForm/>
         </div>

@@ -1,15 +1,15 @@
-.User-input{
-    display: flex;
-    flex-direction: column;
-    padding: 0.3em;;
+.User-input {
+  display: flex;
+  flex-direction: column;
+  padding: 0.3em;
 }
 
-label{
-    font-size: 1.2em;
+label {
+  font-size: 1.2em;
 }
 
-input[type="text"]{
-    width: 50em;
-    height: 3em;
-    border-radius: 0.3em;
+input[type="text"] {
+  width: 50em;
+  height: 3em;
+  border-radius: 0.3em;
 }

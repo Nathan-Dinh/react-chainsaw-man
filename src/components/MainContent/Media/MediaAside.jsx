@@ -2,7 +2,7 @@ import React from "react";
 
 const MediaAside = () => {
   return (
-    <div class="Block-3">
+    <div className="Block-3">
       <aside class="Main-Container Three">
         <h1>Other Videos</h1>
         <h2>

@@ -2,8 +2,8 @@ import React from "react";
 
 const InformationAside = () => {
   return (
-    <div class="Block-3">
-      <aside class="Main-Container Three">
+    <div className="Block-3">
+      <aside className="Main-Container Three">
         <img
           src="https://cdn.myanimelist.net/images/voiceactors/2/61876.jpg"
           alt="#"

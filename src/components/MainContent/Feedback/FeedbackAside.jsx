@@ -3,7 +3,7 @@ import React from "react";
 const FeedbackAside = () => {
   return (
     <div class="Block-3">
-        <aside class="Main-Container Three">
+        <aside className="Main-Container Three">
           <h2>Give us some additional Feedback</h2>
 
           <div>
