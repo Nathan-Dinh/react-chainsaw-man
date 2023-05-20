@@ -4,7 +4,7 @@ import InformationAside from "./InformationAside";
 
 const InformationThree = () => {
   return (
-    <main>
+    <>
       <div class="Block-2">
         <div class="Main-Container Two">
           <div class="Main-Container two header">
@@ -62,9 +62,8 @@ const InformationThree = () => {
           </div>
         </div>
       </div>
-
       <InformationAside/>
-    </main>
+    </>
   );
 };
 

@@ -8,7 +8,7 @@ const InformationOne = () => {
       <div class="Block-2">
         <div class="Main-Container Two">
           <div class="Main-Container two header">
-            <h1>ChainsawMan</h1>
+            <h1>Chainsaw Man</h1>
           </div>
           <div id="Summary">
             <p>

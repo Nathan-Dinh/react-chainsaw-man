@@ -18,12 +18,10 @@ const Media = () => {
               </div>
             </div>
             <br />
-
             <p>
               Watch Chainsaw Man on Crunchyroll!
               <a href="https://got.cr/cc-csmpv">https://got.cr/cc-csmpv</a>
             </p>
-
             <p>
               Crunchyroll Collection brings you the latest clips, openings, full
               episodes, and more from your favorite anime!

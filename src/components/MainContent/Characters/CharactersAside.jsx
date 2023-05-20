@@ -14,9 +14,9 @@ const CharacterAside = () => {
         <h2 class="Episode">Episode 7 - The Taste of a Kiss</h2>
         <h2 class="Episode">Episode 8 - Gunfire</h2>
         <h2 class="Episode">Episode 9 - From Kyoto</h2>
-        <h2 class="Episode">Episode 10 - N/A</h2>
-        <h2 class="Episode">Episode 11 - N/A</h2>
-        <h2 class="Episode">Episode 12 - N/A</h2>
+        <h2 class="Episode">Episode 10 - Bruised & Battered</h2>
+        <h2 class="Episode">Episode 11 - Mission Start</h2>
+        <h2 class="Episode">Episode 12 - Katana vs. Chainsaw</h2>
       </aside>
     </div>
   );

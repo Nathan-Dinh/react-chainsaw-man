@@ -74,7 +74,6 @@ const Feedback = (props) => {
               <option value="Character"></option>
               <option value="Feedback"></option>
             </datalist>
-
             <textarea
               name="commens"
               id="comments"
@@ -83,7 +82,6 @@ const Feedback = (props) => {
               tabindex="6"
               placeholder="What can I improve..."
             ></textarea>
-
             <div id="buttons" class="mt-2 text-center">
               <input
                 type="submit"
@@ -91,7 +89,6 @@ const Feedback = (props) => {
                 tabindex="8"
                 class="btn btn-primary"
               />
-
               <input
                 type="reset"
                 value="clear"
