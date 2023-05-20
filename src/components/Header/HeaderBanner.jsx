@@ -3,7 +3,7 @@ import React from "react";
 const HeaderBanner = () => {
   return (
     <>
-      <header class="Top-Header">
+      <header className="Top-Header">
         <h1>C</h1>
         <h1>H</h1>
         <h1>A</h1>
