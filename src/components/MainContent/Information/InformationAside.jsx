@@ -8,7 +8,7 @@ const InformationAside = () => {
           src="https://cdn.myanimelist.net/images/voiceactors/2/61876.jpg"
           alt="#"
         />
-        <h2 class="Author-Name">Fujimoto, Tatsuki</h2>
+        <h2 className="Author-Name">Fujimoto, Tatsuki</h2>
         <p>
           Tatsuki Fujimoto (藤本 タツキ born October 10, 1993) is a currently
           active mangaka best known for Fire Punch and Chainsaw Man. Fujimoto's

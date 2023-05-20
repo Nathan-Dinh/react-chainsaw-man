@@ -3,7 +3,7 @@ import React from "react";
 const MediaAside = () => {
   return (
     <div className="Block-3">
-      <aside class="Main-Container Three">
+      <aside className="Main-Container Three">
         <h1>Other Videos</h1>
         <h2>
           <a href="https://www.youtube.com/watch?v=j9sSzNmB5po&ab_channel=CrunchyrollCollection">

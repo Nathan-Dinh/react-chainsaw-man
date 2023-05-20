@@ -19,7 +19,7 @@ const FeebackForm = () => {
           value=""
           placeholder="Enter your first name"
           maxlength="10"
-          class="form-control"
+          className="form-control"
         />
       </div>
       <div className="User-input">
@@ -33,7 +33,7 @@ const FeebackForm = () => {
           value=""
           placeholder="Enter your first name"
           maxlength="10"
-          class="form-control"
+          className="form-control"
         />
       </div>
       <div className="User-input">
@@ -47,7 +47,7 @@ const FeebackForm = () => {
           value=""
           placeholder="Enter your first name"
           maxlength="10"
-          class="form-control"
+          className="form-control"
         />
       </div>
       <div className="User-input">
@@ -61,7 +61,7 @@ const FeebackForm = () => {
           value=""
           placeholder="Enter your first name"
           maxlength="10"
-          class="form-control"
+          className="form-control"
         />
       </div>
       <textarea
@@ -72,18 +72,18 @@ const FeebackForm = () => {
         tabindex="6"
         placeholder="What can I improve..."
       ></textarea>
-      <div id="buttons" class="mt-2 text-center">
+      <div id="buttons" className="mt-2 text-center">
         <input
           type="submit"
           value="Apply"
           tabindex="8"
-          class="btn btn-primary"
+          className="btn btn-primary"
         />
         <input
           type="reset"
           value="clear"
           tabindex="9"
-          class="btn btn-secondary"
+          className="btn btn-secondary"
         />
       </div>
     </form>
