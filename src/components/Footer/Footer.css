@@ -16,7 +16,7 @@ footer a {
   font-size: 1.3em;
   background-color: var(--vermilion);
   text-decoration: none;
-  color: var(--catawba);
+  color: black;
   box-shadow: 5px 5px;
 }
 

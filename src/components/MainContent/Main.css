@@ -29,6 +29,25 @@
   align-items: center;
 }
 
+.Main-Container.Three h2{
+  padding: 20px 0;
+}
+
+.Main-Container.Three a{
+  color: var( --yellow-pantone);
+  text-shadow: black 1px 1px;
+}
+
+.Main-Container.Three a:hover {
+  color: var(--yellow-pantone);
+  text-shadow: var(--catawba) 3px 3px;
+}
+
+.Main-Container.Three h1{
+  color:  var(--catawba);
+  padding: 10px 0;
+}
+
 @media (max-width: 1080px) {
   .Main {
     grid-template-columns: repeat(1, 1fr);
